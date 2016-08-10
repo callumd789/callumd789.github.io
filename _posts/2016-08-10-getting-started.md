@@ -12,8 +12,8 @@ categories: admin
 -   basic index.html tested
 -   jekyll installed
 -   jekyll tested locally
+-   integrate jekyll and github
 
 ##  todo  ##
--   integrate jekyll and github
 -   write a **proper** post
 
