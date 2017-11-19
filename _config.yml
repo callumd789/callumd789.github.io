@@ -1,12 +1,37 @@
-# Site settings
-title: callumd.com
-email: cdd@callumd.com
-description: > # this means to ignore newlines until "baseurl:"
-    Thoughts, musings, and scrablings from inside my head. Mostly pertaining to tech.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://callumd.com" # the base hostname & protocol for your site
-twitter_username: callumd
-github_username:  callumd789
-
-# Build settings
-markdown: kramdown
+name: "annotated scrabblings"
+description: "Notes and reminders for things I may need again."
+footer-links:
+  dribbble:
+  email: cdd@callumd.com
+  facebook:
+  flickr:
+  github: callumd789
+  instagram:
+  linkedin: callumdonaldson
+  pinterest:
+  rss: feed.xml # just type anything here for a working RSS icon
+  twitter: callumd
+  stackoverflow: "users/5718355/callum-d"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+disqus:
+google_analytics: UA-109906395-1
+url: "http://callumd.com"
+baseurl: ""
+permalink: /:title/
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

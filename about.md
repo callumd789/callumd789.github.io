@@ -4,7 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is a place for me to document what I've done, so it's a little easier for me to find when I need to repeat something I've already done.  It's public in the hope that something here may be of help to someone else.
-
-If you'd like to contact me, particularly about errors or inaccuracies, please do.
+This is meant mostly to record personal notes and accounts on how I did something, so when I come round to repeating myself and have inevitably forgotten everything, it will be a little  easier to find what I need without re-learning everything from scratch.
 
