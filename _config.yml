@@ -1,4 +1,5 @@
 name: "annotated scrabblings"
+title: "annotated scrabblings"
 description: "Notes and reminders for things I may need again."
 footer-links:
   dribbble:
@@ -15,7 +16,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 disqus:
-google_analytics: UA-109906395-1
+google_analytics: "UA-109906395-1"
 url: "http://callumd.com"
 baseurl: ""
 permalink: /:title/
